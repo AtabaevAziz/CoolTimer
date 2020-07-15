@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:androidx="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        androidx:id="@+id/action_settings"
+        androidx:title="Settings"
+        androidx:orderInCategory="100"
+        app:showAsAction="always"
+        androidx:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        androidx:id="@+id/action_about"
+        androidx:title="About"
+        androidx:orderInCategory="110"
+        app:showAsAction="always"
+        androidx:icon="@drawable/ic_baseline_question_answer_24"/>
+
+    <item
+        androidx:id="@+id/action_purchase"
+        androidx:title="Purchase"
+        androidx:orderInCategory="55"
+        app:showAsAction="always"
+        androidx:icon="@drawable/ic_baseline_monetization_on_24"/>
+
+</menu>
